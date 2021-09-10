@@ -114,13 +114,13 @@
     "@cucumber/message-streams" "^2.0.0"
     "@cucumber/messages" "^16.0.1"
 
-"@cucumber/html-formatter@16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@cucumber/html-formatter/-/html-formatter-16.0.1.tgz#35ec547e76926ef415373589399ae5df393b3bc6"
-  integrity sha512-a/FPKreNILJWwjc/jXikqyLQRyGD6qY9XMSn5NdtJCXflzmPg3ihe9LMrR6DQTS1tr32kjuvsBdkv5lU80Xz6A==
+"@cucumber/html-formatter@17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@cucumber/html-formatter/-/html-formatter-17.0.0.tgz#37ae741d2cf5dad810eb66ab9498ae782b1d2738"
+  integrity sha512-yegA8LY1HYUONyMtTvAYj+aG4zc/6WRtKQxqJahjcdmjgXWcL1BTe8y0lw4BFVqFjaZNI9onOM5KDnMHDm3J/w==
   dependencies:
-    "@cucumber/messages" "^17.0.1"
-    commander "8.0.0"
+    "@cucumber/messages" "^17.1.0"
+    commander "8.1.0"
     source-map-support "0.5.19"
 
 "@cucumber/html-formatter@^15.0.2":
@@ -149,10 +149,10 @@
     reflect-metadata "0.1.13"
     uuid "8.3.2"
 
-"@cucumber/messages@^17.0.1":
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/@cucumber/messages/-/messages-17.0.1.tgz#664dbac9584f73733c1fd1684d050415fc1d69d2"
-  integrity sha512-cr07vBdiUnGgG3p2bUYhKswTwmk6yY62Fu/+Azvnd/eHar266+SkEs1UyO342ZXK56IyBtEE7T0X3Zn3V74q8A==
+"@cucumber/messages@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@cucumber/messages/-/messages-17.1.0.tgz#bcc7386eed3e1c8bbae490a2140e3ceb68a154d7"
+  integrity sha512-OA1uQDX16PjOpeTmMvAiCSjJbomgHYJ4HTVuekF4M8Ykh6mK+5oKn6uZaJTZ/xblEDKGqCfHalrg9yg8/nW41g==
   dependencies:
     "@types/uuid" "8.3.1"
     class-transformer "0.4.0"
@@ -755,10 +755,10 @@ commander@7.2.0, commander@^7.0.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
-commander@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-8.0.0.tgz#1da2139548caef59bd23e66d18908dfb54b02258"
-  integrity sha512-Xvf85aAtu6v22+E5hfVoLHqyul/jyxh91zvqk/ioJTQuJR7Z78n7H558vMPKanPSRgIEeZemT92I2g9Y8LPbSQ==
+commander@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
+  integrity sha512-mf45ldcuHSYShkplHHGKWb4TrmwQadxOn7v4WuhDJy0ZVoY5JFajaRDKD0PNe5qXzBX0rhovjTnP6Kz9LETcuA==
 
 commander@^6.1.0:
   version "6.2.1"
