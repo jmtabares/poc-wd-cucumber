@@ -1,6 +1,6 @@
 import { LaunchOptions } from 'playwright';
 export const browserOptions: LaunchOptions = {
-  headless: false,
+  headless: true,
   slowMo: 0,
   args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream'],
   firefoxUserPrefs: {
