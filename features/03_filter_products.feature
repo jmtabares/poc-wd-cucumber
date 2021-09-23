@@ -14,29 +14,29 @@ Feature: Test the keyword search and filter
     And   the user sees medium size jackets
     Then  the user clear filters
 
-  Scenario: Filter products with category
-    Given the user filter by category "Bridal"
-    When  the user sees products on PLP
-    Then  the user clear filters
+# Scenario: Filter products with category
+#   Given the user filter by category "Bridal"
+#   When  the user sees products on PLP
+#   Then  the user clear filters
 
-  Scenario: Filter products with designer
-    Given the user filter by designer "Acne Studios"
-    When  the user sees products on PLP
-    Then  the user clear filters
+# Scenario: Filter products with designer
+#   Given the user filter by designer "Acne Studios"
+#   When  the user sees products on PLP
+#   Then  the user clear filters
 
-  Scenario: Filter products with color
-    Given the user filter by color "black"
-    And   the user sees products on PLP
-    Then  the user clear filters
+# Scenario: Filter products with color
+#   Given the user filter by color "black"
+#   And   the user sees products on PLP
+#   Then  the user clear filters
 
-  Scenario: Filter products with pattern
-    Given the user filter by pattern "animal-print"
-    When  the user sees products on PLP
-    Then  the user clear filters
+# Scenario: Filter products with pattern
+#   Given the user filter by pattern "animal-print"
+#   When  the user sees products on PLP
+#   Then  the user clear filters
 
-  Scenario: Sort product with price
-    Given  the user sort products "price_asc"
-    Then  the user sees products on PLP
+# Scenario: Sort product with price
+#   Given  the user sort products "price_asc"
+#   Then  the user sees products on PLP
 
 # Scenario: Filter products with FTA
 #   Given the user selects country "Canada" with id "CA"

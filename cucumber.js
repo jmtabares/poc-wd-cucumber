@@ -4,6 +4,7 @@ const common = `
   --format json:reports/report.json 
   --format message:reports/report.ndjson
   --format html:reports/report.html
+  --format ./Reporter.js
   --format summary 
   --format progress-bar 
   --format @cucumber/pretty-formatter

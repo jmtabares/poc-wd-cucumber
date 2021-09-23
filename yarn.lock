@@ -479,6 +479,34 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+allure-commandline@^2.13.8:
+  version "2.13.8"
+  resolved "https://registry.yarnpkg.com/allure-commandline/-/allure-commandline-2.13.8.tgz#ccc10b6296934198776a7ba3a79977cdd56eeac9"
+  integrity sha512-LxP4a/nigaH1al6TZU+JVio8j205XXYhL2ATG22tU2F7xTlEkO4SbAUY8Bq366J6C136EdZAoFUeEsGrJsI7BA==
+
+allure-cucumberjs@^2.0.0-beta.13:
+  version "2.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/allure-cucumberjs/-/allure-cucumberjs-2.0.0-beta.13.tgz#67c23b6b903912b119ad48cf3463a6b3a4029fc8"
+  integrity sha512-olNUtmwwn/YqrTJ35AkRjdobObhJXpP9c/aHFF1mE5urafcJqXq/qt70Als7uQxAMEhhfOpBoouoszpGUsCk9Q==
+  dependencies:
+    allure-js-commons "2.0.0-beta.13"
+
+allure-js-commons@2.0.0-beta.13:
+  version "2.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/allure-js-commons/-/allure-js-commons-2.0.0-beta.13.tgz#a3ef4282df3ba0c9083273f606041d252869782e"
+  integrity sha512-8S6YEofR9LfGCJIMnmeqDvJ9kFD1TsVJZsH+kbsgzpf8HCU/Q6SH9eIxenYU8jWZu4359+crSsEhyNeywXaO4Q==
+  dependencies:
+    mkdirp "^1.0.4"
+    properties "^1.2.1"
+    uuid "^8.3.0"
+
+allure-playwright@^2.0.0-beta.13:
+  version "2.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/allure-playwright/-/allure-playwright-2.0.0-beta.13.tgz#aab7be7020cb7ab9946df2381e737cecc54077d5"
+  integrity sha512-imOTK2byJy5oGaIpFQ8lbPlGyXb8GTpgFxh8KrSkyb6/SErZpaLil0VgyC6wU/tFCoJAGiWUmqj0dn4UOg2ANA==
+  dependencies:
+    allure-js-commons "2.0.0-beta.13"
+
 ansi-colors@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
@@ -2361,6 +2389,11 @@ minimist@^1.2.0, minimist@^1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
+mkdirp@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
 modify-values@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
@@ -2774,6 +2807,11 @@ proper-lockfile@^4.1.1:
     graceful-fs "^4.2.4"
     retry "^0.12.0"
     signal-exit "^3.0.2"
+
+properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
+  integrity sha1-Dul6f8AgsaKlW4ZZ7aSqjYaQlL0=
 
 proxy-from-env@^1.1.0:
   version "1.1.0"
@@ -3517,7 +3555,7 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-uuid@8.3.2:
+uuid@8.3.2, uuid@^8.3.0:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
