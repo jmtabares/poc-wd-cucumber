@@ -43,7 +43,7 @@
     "dotenv": "^10.0.0",
     "expect": "27.0.6",
     "lodash": "^4.17.21",
-    "playwright": "^1.14.0"
+    "playwright": "^1.15.0"
   },
   "devDependencies": {
     "@types/expect": "24.3.0",
