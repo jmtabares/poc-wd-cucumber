@@ -1,22 +1,24 @@
-//import { get } from 'lodash';
-import { ElementHandle } from 'playwright/types/types';
-import { home } from "../screens/home";
+import { elementIsVisible } from './common';
+import { home } from '../screens/home';
 import { pdp } from '../screens/pdp';
-import { elementIsVisible } from "./common";
+import { ElementHandle } from 'playwright/types/types';
 import { difference, map, find } from 'lodash';
-
-
-export async function selectAvailable(page: any, items: ElementHandle<SVGElement | HTMLElement>[], index = 1) {
-  let product = items[index];
-  await product.waitForElementState('visible')
-  await product.click()
+import { Page } from 'playwright';
+export async function selectAvailable(
+  page: any,
+  items: ElementHandle<SVGElement | HTMLElement>[],
+  index = 1,
+) {
+  const product = items[index];
+  await product.waitForElementState('visible');
+  await product.click();
   await elementIsVisible(page, pdp.product.page);
   await elementIsVisible(page, pdp.product.info);
 }
 
 export async function selectSize(page: any) {
   const selector = home.size.select;
-  await page.waitForSelector(pdp.product.info)
+  await page.waitForSelector(pdp.product.info);
   await elementIsVisible(page, pdp.product.info);
   let visible = await page.isVisible(selector);
   if (visible) {
@@ -40,7 +42,7 @@ export async function selectSize(page: any) {
 /**
  * User click on add to bag button
  */
-export async function addToBag(page: any) {
+export async function addToBag(page: Page) {
   const selector = home.btn.addToBag;
   await elementIsVisible(page, selector);
   page.click(selector);

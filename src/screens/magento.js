@@ -23,7 +23,8 @@ const Magento = {
     shippingCol: '#co-delivery-form .shipping-col',
     billingCol: '#co-delivery-form .billing-col',
     shippingMethodDiv: '#checkout-shipping-method-load',
-    removeProduct: '#shopping-cart-table > tbody > tr > td.product-cart-info > div.action-items-wrapper > p.product-cart-remove-item',
+    removeProduct:
+      '#shopping-cart-table > tbody > tr > td.product-cart-info > div.action-items-wrapper > p.product-cart-remove-item',
   },
   login: {
     form: {
@@ -75,12 +76,15 @@ const Magento = {
     cardPaymentCheck: '#p_method_adyen_cc',
     cardForm: {
       div: '#payment_form_adyen_cc',
-      cardName: '#cardContainer span.adyen-checkout__input-wrapper > input.adyen-checkout__input--text',
+      cardName:
+        '#cardContainer span.adyen-checkout__input-wrapper > input.adyen-checkout__input--text',
     },
     paymentBth: '#payment-buttons-container > div > button',
     iframes: {
-      number: '#cardContainer .adyen-checkout__card__form .adyen-checkout__card__cardNumber__input iframe',
-      expiry: '#cardContainer .adyen-checkout__card__form .adyen-checkout__card__exp-cvc .adyen-checkout__field--expiryDate iframe',
+      number:
+        '#cardContainer .adyen-checkout__card__form .adyen-checkout__card__cardNumber__input iframe',
+      expiry:
+        '#cardContainer .adyen-checkout__card__form .adyen-checkout__card__exp-cvc .adyen-checkout__field--expiryDate iframe',
       CVV: '#cardContainer .adyen-checkout__card__form .adyen-checkout__card__exp-cvc .adyen-checkout__card__cvc__input iframe',
     },
   },

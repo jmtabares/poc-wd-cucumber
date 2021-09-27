@@ -34,32 +34,32 @@ const Shop = {
   threeBanners: {
     div: (child) => `#root > div > div.content > div > div:nth-child(${child})`,
     /**
-       * get pre header class
-       * @param {number} child three topics div
-       * @param {number} i row number
-       * @param {number} j preheader number
-       * @returns {string} css class
-       */
+     * get pre header class
+     * @param {number} child three topics div
+     * @param {number} i row number
+     * @param {number} j preheader number
+     * @returns {string} css class
+     */
     preHeader(child, i, j) {
       return `${this.div(child)} [data-qa='row-${i}'] [data-qa='preheader-${j}'] > a > p`;
     },
     /**
-       * get headline class
-       * @param {number} child three topics div
-       * @param {number} i row number
-       * @param {number} j headline number
-       * @returns {string} css class
-       */
+     * get headline class
+     * @param {number} child three topics div
+     * @param {number} i row number
+     * @param {number} j headline number
+     * @returns {string} css class
+     */
     headline(child, i, j) {
       return `${this.div(child)} [data-qa='row-${i}'] [data-qa='headline-${j}'] > a > p`;
     },
     /**
-       * get banner class
-       * @param {number} child three topics div
-       * @param {number} i row number
-       * @param {number} j headline number
-       * @returns {string} css class
-       */
+     * get banner class
+     * @param {number} child three topics div
+     * @param {number} i row number
+     * @param {number} j headline number
+     * @returns {string} css class
+     */
     banner(child, i, j) {
       return `${this.div(child)} [data-qa='block-${i}'] [data-qa='banner-${j}'] > a > div`;
     },

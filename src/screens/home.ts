@@ -35,9 +35,11 @@ export const home = {
   },
   newArrivals: {
     // eslint-disable-next-line max-len
-    womenTitle: '.content .gate .gate__section:nth-child(2) .productcarousel .productcarousel__title',
+    womenTitle:
+      '.content .gate .gate__section:nth-child(2) .productcarousel .productcarousel__title',
     // eslint-disable-next-line max-len
-    womenImages: '.content .gate .gate__section:nth-child(2) .productcarousel .productcarousel__carousel .carousel__items',
+    womenImages:
+      '.content .gate .gate__section:nth-child(2) .productcarousel .productcarousel__carousel .carousel__items',
     womenShop: '.content .gate .gate__section:nth-child(2) .productcarousel .productcarousel__cta',
     men: '.content .gate .gate__section:nth-child(3) .gate__shop:nth-child(2)',
     kids: '.content .gate .gate__section:nth-child(4) .gate__shop:nth-child(3)',
@@ -88,13 +90,16 @@ export const home = {
     measurementContent: '.sizeguidemodal > .tabs > .tabs__content > .measurements',
     chartContent: '.sizeguidemodal > .tabs > .tabs__content > .sizechart',
     toggle: '.measurements__toggle > .toggle > .toggle__button',
-    notAvailable: '.dropdown__options .simplebar-wrapper .simplebar-content > .sizeitem--notavailable',
+    notAvailable:
+      '.dropdown__options .simplebar-wrapper .simplebar-content > .sizeitem--notavailable',
     all: '.dropdown__options .simplebar-wrapper .simplebar-content > .sizeitem',
-    wishListBtn: '.product__area__information .productinfo .productactions .productbuttons .button__wishlisticon',
+    wishListBtn:
+      '.product__area__information .productinfo .productactions .productbuttons .button__wishlisticon',
   },
   product: {
     listContainer: '.app > .content > .list',
-    first: '.content > div > div.list__container > div:nth-child(1) > a > div > div:nth-child(1) > img',
+    first:
+      '.content > div > div.list__container > div:nth-child(1) > a > div > div:nth-child(1) > img',
     firstItem: 'div.content > div > div.list__container > div:nth-child(1)',
     list: 'div.list__container > div.item',
     currentPage: '.pagination__item__selected',

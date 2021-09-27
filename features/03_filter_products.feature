@@ -41,6 +41,6 @@ Feature: Test the keyword search and filter
   Scenario: Filter products with FTA
     Given the user selects country "Canada" with id "CA"
     Then the user selects language "en"
-    And  the user  sees "<translatedCountry>"
+    And  the user  sees "Canada"
     When the user filter products with FTA
     Then  the user sees products on PLP

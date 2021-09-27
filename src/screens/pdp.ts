@@ -7,7 +7,8 @@ export const pdp = {
     info: '.product .product__area > .product__area__information',
   },
   price: {
-    benefits: '.productinfo .productinfo__pricedescription > .productinfo__pricedescription__benefits',
+    benefits:
+      '.productinfo .productinfo__pricedescription > .productinfo__pricedescription__benefits',
     desc: '.productinfo .productinfo__pricedescription',
     converted: '.productinfo .pricing > .pricing__converted',
     usd: '.product .pricing .pricing__price__amount',
