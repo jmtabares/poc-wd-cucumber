@@ -1,4 +1,4 @@
-export default {
+export const pdp = {
   plp: {
     list: '#root > div > div.content > div > div.list__container',
   },
