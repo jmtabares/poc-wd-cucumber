@@ -45,7 +45,7 @@
     "expect": "27.2.1",
     "lodash": "^4.17.21",
     "npm-check-updates": "^11.8.5",
-    "playwright": "^1.15.0"
+    "playwright": "^1.15.1"
   },
   "devDependencies": {
     "@types/expect": "24.3.0",
